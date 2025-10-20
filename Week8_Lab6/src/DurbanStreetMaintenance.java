@@ -107,5 +107,4 @@ public class DurbanStreetMaintenance {
 
     } // end of the inputHouseAges method
 
-
 } // end of the DurbanStreetMaintenance class
