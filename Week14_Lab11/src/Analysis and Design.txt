@@ -1,0 +1,51 @@
+Object Oriented Analysis and Design
+Created by Muhammad Ahsan Saleem
+Date: 11/17/2025
+
+Analysis:
+
+    Domain:
+        Girl
+        Diamond
+
+    Function points:
+        Girl gets a new diamond
+
+    Scenarios:
+        Girl has no diamond
+        Girl has a diamond
+
+Design:
+
+    Classes:
+        Diamond
+        Girl
+        Driver
+
+    Data:
+
+        Diamond:
+            private carats: int
+            private value: double
+
+        Girl:
+            private name: String
+            private diamond: Diamond
+
+    Methods:
+
+        Diamond:
+            public constructor
+            public toString
+            public getCarats
+            public setCarats
+            public getValue
+            public setValue
+
+        Girl:
+            public constructor
+            public toString
+            public getName
+            public setName
+            public getDiamond
+            public takeDiamond
