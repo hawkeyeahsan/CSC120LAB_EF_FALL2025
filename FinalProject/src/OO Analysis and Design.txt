@@ -1,0 +1,49 @@
+Final Project
+Object Oriented Analysis and Design
+Created by Muhammad Ahsan Saleem
+
+Analysis:
+
+    Domain:
+        Boat
+        BoatType (enum)
+        Fleet (ArrayList)
+        FleetManagement (actor)
+
+
+    Function points:
+        Print boats in the fleet
+        Add a boat
+        Remove a boat
+        Add expenses
+
+    Scenarios:
+        Initial run: load data from the CSV file
+        Each subsequent run: load data from the DB file
+
+Design:
+
+    Classes:
+        FleetManagement (driver class)
+        Boat
+
+    Data:
+
+        Boat:
+            private type: BoatType
+            private yearOfManufacture: short
+            private makeModel: String
+            private length: byte
+            private purchasePrice: double
+            private name: String
+            private expenses: double
+
+    Methods:
+
+        Boat:
+            public constructor
+            public toString
+            public getName
+            public getPurchasePrice
+            public getExpenses
+            public setExpenses
